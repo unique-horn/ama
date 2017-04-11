@@ -1,0 +1,46 @@
+PackratFormat: 1.4
+PackratVersion: 0.4.8.1
+RVersion: 3.3.3
+Repos: CRAN=http://cran.rstudio.com/
+
+Package: Rcpp
+Source: CRAN
+Version: 0.12.9
+Hash: 7ab41cbe74918de8de87e435ef17e92d
+
+Package: docopt
+Source: github
+Version: 0.4.5
+Hash: e599e1a892f67323cec5c02aba38dd15
+Requires: stringr
+GithubRepo: docopt.R
+GithubUsername: docopt
+GithubRef: master
+GithubSha1: a777185f4312111233b1fabff6fd69cbbfabe1e9
+
+Package: magrittr
+Source: CRAN
+Version: 1.5
+Hash: bdc4d48c3135e8f3b399536ddf160df4
+
+Package: packrat
+Source: CRAN
+Version: 0.4.8-1
+Hash: 6ad605ba7b4b476d84be6632393f5765
+
+Package: pdftools
+Source: CRAN
+Version: 1.2
+Hash: e32f8ad272013ddae75b78c75d4694f4
+Requires: Rcpp
+
+Package: stringi
+Source: CRAN
+Version: 1.1.3
+Hash: 458dfc7d682c0f80909521fe482f7c6d
+
+Package: stringr
+Source: CRAN
+Version: 1.2.0
+Hash: 25a86d7f410513ebb7c0bc6a5e16bdc3
+Requires: magrittr, stringi

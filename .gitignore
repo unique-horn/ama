@@ -1,1 +1,4 @@
+packrat/lib*/
+packrat/src/
+*.pyc
 slides

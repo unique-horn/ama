@@ -1,0 +1,41 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "9f597d09d4975dbfa1c60b722d3acf229cf35f61a2d833553fc633e2e9e03264"
+        },
+        "requires": {},
+        "sources": [
+            {
+                "url": "https://pypi.python.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "docopt": {
+            "hash": "sha256:49b3a825280bd66b3aa83585ef59c4a8c82f2c8a522dbe754a8bc8d08c85c491",
+            "version": "==0.6.2"
+        },
+        "msgpack-python": {
+            "hash": "sha256:1a2b19df0f03519ec7f19f826afb935b202d8979b0856c6fb3dc28955799f886",
+            "version": "==0.4.8"
+        },
+        "numpy": {
+            "hash": "sha256:5dd60892710df0ef654bbf4d1e3cb53ac79845e55a96e4a26dd47218e06d819a",
+            "version": "==1.12.1"
+        },
+        "scikit-learn": {
+            "hash": "sha256:dfe8fec9d8f91cbe890cc3c79a153bc8b8220c479090167b85835384e6f80423",
+            "version": "==0.18.1"
+        },
+        "scipy": {
+            "hash": "sha256:f5a3a7dcbeb345c227770029870aeb547a3c207a6cbc0106d6157139fd0c23e9",
+            "version": "==0.19.0"
+        },
+        "tqdm": {
+            "hash": "sha256:1621b3476c2224045d8bd57209aab006612a46ae2cc518b4a92ad988983e4c3d",
+            "version": "==4.11.2"
+        }
+    },
+    "develop": {}
+}

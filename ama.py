@@ -90,7 +90,6 @@ class Model:
 
         page_indices = distances.T.argsort()[:, -n_pages:].tolist()[0]
         page_indices.reverse()
-        print(page_indices)
 
         for pi in page_indices:
             print(self.data["pages"][pi])
